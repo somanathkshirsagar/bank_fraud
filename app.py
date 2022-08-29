@@ -6,7 +6,7 @@ import pandas as pd
 import sklearn
 import numpy as np
 
-st.title("Bank Fraud Detetcion App")
+st.title("Bank Transaction Fraud Detetcion App")
 
 step = st.number_input('step', 0, 1220000, 10)
 type = st.selectbox('type', ['CASH_IN', 'CASH_OUT','DEBIT', 'PAYMENT','TRANSFER'])
